@@ -1,7 +1,5 @@
 ---
-skeleton::ensure: 'present'
 skeleton::package_name: 'skeleton'
 skeleton::package_ensure: 'present'
-skeleton::service_ensure: 'running',
+skeleton::service_ensure: 'running'
 skeleton::service_enable: true
-
