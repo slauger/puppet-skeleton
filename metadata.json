@@ -1,0 +1,15 @@
+{
+  "name": "slauger-skeleton",
+  "version": "1.0.0",
+  "author": "Simon Lauger <simon@lauger.name>",
+  "summary": "Simplified skeleton puppet module for writing your own puppet modules",
+  "license": "Apache-2.0",
+  "source": "https://github.com/slauger/puppet-skeleton",
+  "project_page": "https://github.com/slauger/puppet-skeleton",
+  "issues_url": "https://github.com/slauger/puppet-skeleton/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
