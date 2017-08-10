@@ -10,11 +10,11 @@ class skeleton::config {
     source  => "puppet:///modules/${module_name}/skeleton.file",
   }
   
-  file { '/tmp/puppet-skeleton.epp':
+  file { '/tmp/puppet-skeleton.erb':
     ensure  => file,
     owner   => 'root',
     group   => 'root',
     mode    => '0644',
-    content => epp("${module_name}/skeleton.epp"),
+    content => template("${module_name}/skeleton.erb"),
   }
 }
